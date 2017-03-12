@@ -1,0 +1,77 @@
+h1 {
+	color : white;
+	font-weight : bold;
+	font-size : 40px;
+	text-align : center;
+	background-image:url(cover.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	padding :40px;
+	
+}
+body {
+	color : white;
+	font-size : 20px;
+	font-family: Tahoma;
+	margin :0px;
+	
+	background-image:url(cover2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	min-height: 170px;
+   	
+
+
+}
+
+img{
+	max-height = "50px";
+}
+h2 {
+	color : white;
+	font-weight : bold;
+	border-bottom-width:1px;
+	border-bottom-color:white;
+	border-bottom-style:dotted;
+}
+input { 
+	border-width:1px;
+	padding : 5px;
+	width:700px;
+	height:70px;
+	margin : 10px;
+	font-size : 40px;
+	text-align : center;
+	text-transform : uppercase;
+}
+textarea {
+	border-width:1px;
+	border-color:black;
+	font-size:12px;
+	min-width : 400px;
+	
+}
+select{
+	border-width:1px;
+	border-color:black;
+}
+input[type="submit"] { 
+	border-width:1px;
+	border-color:black;
+	padding:3px;
+	width:700px;
+	height:70px;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	background-image:url(cover.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin : 10px;
+}
+super{
+	color:white;
+	font-size:15px;
+}

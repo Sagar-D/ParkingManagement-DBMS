@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<title>
+Testing Allotment
+</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<script type="text/javascript" >
+	
+		function validate() {
+		if(document.reserveform.vno.value=="" || document.reserveform.slno.value == "" || document.reserveform.desig.value==""){
+			alert("Please enter your vehicle number, designation and slot number you want to reserve");
+			return false;
+		}
+		
+	}
+	
+</script>
+
+</head>
+
+<body>
+
+<h1 style="font-size : 85px; font-family : tahoma ; text-align : center;" > PARKING MANAGEMENT SYSTEM </h1>
+
+<div style="padding-left:25%;">
+
+<form name="reserveform" action="reserve.php" method="POST">
+<input type="text" name = "desig" placeholder="Name/Designation" /><br/>
+<input type="text" name = "slno" placeholder="Slot Number" /><br/>
+<input type="text" name = "vno" placeholder="Vehicle Number" /><br/>
+<input type="submit" value="RESERVE" onclick="return validate()" />
+
+</form>
+
+</div>
+</body>
+
+</html>

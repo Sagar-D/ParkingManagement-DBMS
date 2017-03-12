@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<title>
+Testing Allotment
+</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<script type="text/javascript" >
+	
+		function validate() {
+		if(document.allotform.vno.value==""){
+			alert("Please enter your vehicle number");
+			return false;
+		}
+		text = document.allotform.vno.value;
+		text.toUpperCase();
+		document.write('hi');
+		document.getElementById("xyz").setAttribute('value','hi');
+		
+	}
+	
+</script>
+
+</head>
+
+<body>
+
+<h1 style="font-size : 85px; font-family : tahoma ; text-align : center;" > PARKING MANAGEMENT SYSTEM </h1>
+
+<div style="padding-left:25%;">
+
+<form name="allotform" action="test.php" method="POST">
+<input type="text" id="xyz" name = "vno" placeholder="Vehicle Number" /><br/>
+<input type="submit" value="ALLOT / BILL" onclick="return validate()" />
+
+</form>
+
+</div>
+</body>
+
+</html>
